@@ -1,0 +1,13 @@
+D:\project\TestXAFAPP\TestXAFAPP.Module\bin\Debug\net6.0\TestXAFAPP.Module.deps.json
+D:\project\TestXAFAPP\TestXAFAPP.Module\bin\Debug\net6.0\TestXAFAPP.Module.dll
+D:\project\TestXAFAPP\TestXAFAPP.Module\bin\Debug\net6.0\TestXAFAPP.Module.pdb
+D:\project\TestXAFAPP\TestXAFAPP.Module\obj\Debug\net6.0\TestXAFAPP.Module.csproj.AssemblyReference.cache
+D:\project\TestXAFAPP\TestXAFAPP.Module\obj\Debug\net6.0\TestXAFAPP.Module.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\TestXAFAPP\TestXAFAPP.Module\obj\Debug\net6.0\TestXAFAPP.Module.AssemblyInfoInputs.cache
+D:\project\TestXAFAPP\TestXAFAPP.Module\obj\Debug\net6.0\TestXAFAPP.Module.AssemblyInfo.cs
+D:\project\TestXAFAPP\TestXAFAPP.Module\obj\Debug\net6.0\TestXAFAPP.Module.csproj.CoreCompileInputs.cache
+D:\project\TestXAFAPP\TestXAFAPP.Module\obj\Debug\net6.0\TestXAFAPP.Module.dll
+D:\project\TestXAFAPP\TestXAFAPP.Module\obj\Debug\net6.0\refint\TestXAFAPP.Module.dll
+D:\project\TestXAFAPP\TestXAFAPP.Module\obj\Debug\net6.0\TestXAFAPP.Module.pdb
+D:\project\TestXAFAPP\TestXAFAPP.Module\obj\Debug\net6.0\ref\TestXAFAPP.Module.dll
+D:\project\TestXAFAPP\TestXAFAPP.Module\bin\Debug\net6.0\appsettings.json

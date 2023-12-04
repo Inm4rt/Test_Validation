@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="TestXAFAPP">
+  <BOModel>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="Orders" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Client" ViewId="Client_ListView" IsNewNode="True" />
+          <Item Id="Order" ViewId="Order_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="23.1.6.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="23.1.6.0" IsNewNode="True" />
+  </SchemaModules>
+  <Validation>
+    <Rules>
+      <RuleRequiredField Id="Client_Name_Not_Empty" TargetType="TestXAFAPP.Module.BusinessObjects.TestXAFAPP.Client" TargetContextIDs="Save" TargetPropertyName="Name" CustomMessageTemplate="Name not empty" IsNewNode="True" />
+      <RuleRequiredField Id="Client_Second_Name_Not_Empty" TargetType="TestXAFAPP.Module.BusinessObjects.TestXAFAPP.Client" TargetPropertyName="SecondName" TargetContextIDs="Save" CustomMessageTemplate="Second name not empty" IsNewNode="True" />
+      <RuleCriteria Id="Order_Min_Cost" TargetContextIDs="Delete" TargetType="TestXAFAPP.Module.BusinessObjects.TestXAFAPP.Order" Criteria="[Cost] &gt;= 200.0m And [Cost] &lt; 600.0m" TargetCriteria="Not IsNullOrEmpty([Link]) And [Client] Is Not Null" ResultType="Information" InvertResult="False" IsNewNode="True" />
+    </Rules>
+  </Validation>
+  <Views>
+    <ListView Id="ApplicationUser_ListView" Caption="Users" />
+  </Views>
+</Application>

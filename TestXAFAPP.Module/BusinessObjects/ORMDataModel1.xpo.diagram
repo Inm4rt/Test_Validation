@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<visualDesignerDiagram dslVersion="1.0.0.0" Id="eab354df-8764-44a6-b6dc-b91ce4aa1c5a" absoluteBounds="0, 0, 11, 8.5" name="ORMDataModel1">
+  <dataBaseObjectModelMoniker Id="dbf65ef6-92f5-49c5-b482-e8871e0aa782" />
+  <nestedChildShapes>
+    <xpObjectShape Id="016374ea-8aa2-4990-b5e6-bddefca0b2e6" absoluteBounds="0.375, 0.75, 1.5, 1.9473746744791667">
+      <xpObjectMoniker Id="87bb8cf5-eb73-46e8-a958-3ba14817f23a" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aded683a-92e4-4cbd-ac66-0121d22bc85a" absoluteBounds="0.39, 1.06, 1.4700000000000002, 1.0185953776041665" name="Fields" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="ed2b67ae-07c7-426f-84cf-aff6bed72ee4" absoluteBounds="0.39, 2.0885953776041664, 1.4700000000000002, 0.2493896484375" name="Indexes" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="36c40c71-15d6-47e1-a3cf-c970fcfa11e3" absoluteBounds="0.39, 2.3479850260416666, 1.4700000000000002, 0.2493896484375" name="Collections" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </xpObjectShape>
+    <xpObjectShape Id="5318fabf-6c1d-41ae-9441-cd1e3edbdded" absoluteBounds="4, 0.5, 1.5, 2.1396761067708332">
+      <xpObjectMoniker Id="23ad7a56-8eb9-4e0c-9a76-e830615438c7" />
+      <nestedChildShapes>
+        <elementListCompartment Id="06facebf-a365-4946-aea1-336a8e98e5c4" absoluteBounds="4.0150000000000006, 0.80999999999999994, 1.4700000000000002, 1.0185953776041665" name="Fields" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="0fc6e6e7-5bd4-43df-a18b-5e1ca92ba847" absoluteBounds="4.0150000000000006, 1.8385953776041664, 1.4700000000000002, 0.2493896484375" name="Indexes" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="214fb27d-c3e2-46ef-a3b4-ad329457605a" absoluteBounds="4.0150000000000006, 2.0979850260416666, 1.4700000000000002, 0.44169108072916663" name="Collections" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </xpObjectShape>
+    <simpleAssociationConnector Id="2f0e3f07-81d0-48ea-aa6a-ae141ef3ba9e" edgePoints="[(4 : 1.69483805338542); (1.875 : 1.69483805338542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <simpleAssociationMoniker Id="0601499b-0253-4f2a-8625-2748a40e2bd0" />
+      <relativeChildShapes />
+      <nodes>
+        <xpObjectShapeMoniker Id="5318fabf-6c1d-41ae-9441-cd1e3edbdded" />
+        <xpObjectShapeMoniker Id="016374ea-8aa2-4990-b5e6-bddefca0b2e6" />
+      </nodes>
+      <sourceCollectionField>
+        <associationConnectorReferencesSourceCollectionField Id="186fefcd-115f-4355-bf69-860e67dff464">
+          <collectionFieldMoniker Id="78aafd58-061e-4510-89c4-602e34467b96" />
+        </associationConnectorReferencesSourceCollectionField>
+      </sourceCollectionField>
+    </simpleAssociationConnector>
+  </nestedChildShapes>
+</visualDesignerDiagram>

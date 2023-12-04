@@ -1,0 +1,11 @@
+D:\project\TestXAFAPP\ModelTestLib\bin\Debug\net6.0\ModelTestLib.deps.json
+D:\project\TestXAFAPP\ModelTestLib\bin\Debug\net6.0\ModelTestLib.dll
+D:\project\TestXAFAPP\ModelTestLib\bin\Debug\net6.0\ModelTestLib.pdb
+D:\project\TestXAFAPP\ModelTestLib\obj\Debug\net6.0\ModelTestLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\TestXAFAPP\ModelTestLib\obj\Debug\net6.0\ModelTestLib.AssemblyInfoInputs.cache
+D:\project\TestXAFAPP\ModelTestLib\obj\Debug\net6.0\ModelTestLib.AssemblyInfo.cs
+D:\project\TestXAFAPP\ModelTestLib\obj\Debug\net6.0\ModelTestLib.csproj.CoreCompileInputs.cache
+D:\project\TestXAFAPP\ModelTestLib\obj\Debug\net6.0\ModelTestLib.dll
+D:\project\TestXAFAPP\ModelTestLib\obj\Debug\net6.0\refint\ModelTestLib.dll
+D:\project\TestXAFAPP\ModelTestLib\obj\Debug\net6.0\ModelTestLib.pdb
+D:\project\TestXAFAPP\ModelTestLib\obj\Debug\net6.0\ref\ModelTestLib.dll

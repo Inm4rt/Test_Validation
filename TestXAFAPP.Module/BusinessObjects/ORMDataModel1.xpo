@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="dbf65ef6-92f5-49c5-b482-e8871e0aa782" namespace="TestXAFAPP.Module.BusinessObjects.TestXAFAPP" dataBaseShemaInfo="H4sIAAAAAAAEAMVW247bNhB9L9B/MPy8tEiJ4iWQFSR2GgRJt4tsUvR1SI52heiyECXv5u9L+Za1s2lT1PC+iWfOgHNmhqPJXj7U1WSFnS/bZj5lMzp9mf/6S/YaPF73bQc3+K4p2klgNf7Fg3fz6W3f372Iovv7+9l9Mmu7myimlEV//f7h2t5iDdM9ufx3Mikb30NjcRpunUyyT2Aq9OOV6/MOeQTsoEuoMf+jc9hl0Tdgz3nTjFjedwNm0fawNy5LPwKf7xz0mBdQ+UA6BPfct0Pp3rlcSWOULVKCRiaEC1QEdKpIYoBxxWQRJ5BFW/LeedFWQ934g/B/CAfDqGFjzC+H2ozaHkEH1H8S+F9FPhaauCSJpaPEUCUIV5YTwx2QonDKOGkt0+o7ocE9+h9aF63vz69UFQwLjTHRYyF5AQkxKTXECgEppC51mp9a6Yey+XJ+pVYAcwyBaG5D8+pQWIhjQ0AI5ImGRPDi5DWtSmyeoaoUhTNWSZJInYb+ZZYAupgohShSkUgqzU9rfQrdjpufnlG7RJxhSIUZ5CSkgig0mnCklmiQgqBKqGApT5SVpx1S4fP8JU6tS2JmWZhJQAlPhSbahterpIiFY0xROPmIukbbNu559BasSMPPRxKjCiDcSEM0hrllrUCTAmVaxKfWe9V3bdPWX8+vNpRPxakEYrUKD5hjaOdxdlGMDVeJiSW6kz7g7fkbJRs3H3RXXWvX4CTawH9u1qR8ias3D3cdej9bQg+zVZzM2MVka56Pp5mY0YvJYqj6ocN5g0PfQXUxuRpMVdr3+PVT+wWbuVHKMZlyJylFrsMCsbtifd+iAu/RjwX4OOyzm71yITQsyodtXBvoeigOoI9Ytys8Jm7QY+4ibHv558beQnMzJnd93qTmqRiykJk77PrymWP7QRjZW2ywC+21aOs6jF6/7dHv4APyEn15Ez5/K0MrHHkc2tZuS6ywx1fet7aEPpRs5/OEYe1wOVTV2Gav8RZWZduFLiog9Ed4YMeWsH9HRwt4/jf5VxOiqQsAAA==" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" connectionStringName="NilokolaevTestXAFAPP" createdInVersion="23.1.6.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="true" lastModifiedInVersion="23.1.6.0" name="TestXAFAPP" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="99017796-0eb8-48a1-9525-5969af31f461">
+      <xpObject Id="87bb8cf5-eb73-46e8-a958-3ba14817f23a" name="Order" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="Order" designerFileName="Order.Designer" className="Order" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="Order">
+        <fields>
+          <generalXpObjectHasFields Id="8abcec9f-eaf4-4da5-8849-f150c0cf490f">
+            <field Id="3d3327d0-b086-48c4-b4da-ffd8bd7cc198" name="Number" columnType="Int32" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="f9412e96-a611-477a-b634-8824eb1ea85e">
+            <field Id="8f1ef9e2-9958-4fa3-b50b-c66a5a5d5d94" name="Cost" columnType="Decimal" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" defaultValue="Decimal#0" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="965fcc8b-7536-4707-b609-27258cab9819">
+            <field Id="c6a1d1ea-94c3-4986-a22b-a66e439a364f" name="Link" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="e0889778-a51d-41f3-9547-4aaa9ad8c82b">
+            <field Id="0e6dbc87-3795-481c-aed2-88ee6563707b" name="Client" virtualColumnType="Client" logicalType="Client" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="63cc8a6c-c37b-4f54-8b57-cda339809b90">
+      <xpObject Id="23ad7a56-8eb9-4e0c-9a76-e830615438c7" name="Client" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="Client" designerFileName="Client.Designer" className="Client" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="Client">
+        <fields>
+          <generalXpObjectHasFields Id="fb46fdb3-d1a3-4a8a-8ad8-843b9ea59587">
+            <field Id="5cd321c1-ffa0-4569-9ca3-87626d1180a8" name="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="12638e10-e9de-4114-aa5d-cce15f89edfa">
+            <field Id="f1f5b8c7-b8fa-4b7b-9ee2-cc6eb5a01962" name="SecondName" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="f0ac1873-0d71-45e4-bb92-d89810080ca7">
+            <field Id="1808257a-c985-44e6-81ea-0e2b483b27ed" name="Ptronomy" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="e76eedea-880a-4efa-9617-eb58dff607ae">
+            <persistentAlias Id="2b029172-9f73-44b5-847c-588f4eb3410b" name="FullName" virtualColumnType="String" expression="[SecondName] + ' ' + [Name] + ' ' + [Ptronomy]" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="0601499b-0253-4f2a-8625-2748a40e2bd0" sourceCollectionName="Orders" name="OrderReferencesClient" targetFieldName="Client">
+            <xpObjectMoniker Id="87bb8cf5-eb73-46e8-a958-3ba14817f23a" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="3202a857-edde-49c2-8299-151511f1c35d">
+            <collectionField Id="78aafd58-061e-4510-89c4-602e34467b96" name="Orders" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>

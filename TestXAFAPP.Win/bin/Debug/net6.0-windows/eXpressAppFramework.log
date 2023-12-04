@@ -1,0 +1,1171 @@
+02.12.23 12:13:18.632	================================================================================
+02.12.23 12:13:18.637	Trace Log for TestXAFAPP.Win is started
+02.12.23 12:13:18.639	================================================================================
+02.12.23 12:13:18.644	System Environment
+	OS Version: Microsoft Windows NT 10.0.22621.0
+	CLR Version: 6.0.21
+	eXpressApp Version: 23.1.6.0
+	eXpressApp File Version: 23.1.6.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	eXpressAppFrameworkTraceLevel=3
+
+02.12.23 12:13:24.205	Initialize application
+=======================
+02.12.23 12:13:24.211		Command line arguments: 
+		D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\TestXAFAPP.Win.dll
+02.12.23 12:13:27.196	The ValueManagerType is initialized by the default value: SimpleValueManager.
+02.12.23 12:13:27.289	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   at DevExpress.ExpressApp.ReportsV2.Win.ReportsWindowsFormsModuleV2.Setup(XafApplication application)
+   at DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   at System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinModuleBuilder.<>c__DisplayClass4_0`1.<Add>b__0(XafApplication application)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinApplicationBuilder.Build()
+   at TestXAFAPP.Win.ApplicationBuilder.BuildApplication(String connectionString) in D:\project\TestXAFAPP\TestXAFAPP.Win\Startup.cs:line 87
+   at TestXAFAPP.Win.Program.Main(String[] args) in D:\project\TestXAFAPP\TestXAFAPP.Win\Program.cs:line 62
+
+02.12.23 12:13:30.011	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+02.12.23 12:13:30.018	--------------------------------------------------------------------------------
+							
+
+02.12.23 12:13:30.082	--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\Accessibility.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.BonusSkins.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.BonusSkins.v23.1.dll
+	DevExpress.Data.Desktop.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Data.Desktop.v23.1.dll
+	DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Data.v23.1.dll
+	DevExpress.Drawing.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Drawing.v23.1.dll
+	DevExpress.ExpressApp.Chart.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Chart.v23.1.dll
+	DevExpress.ExpressApp.Chart.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Chart.Win.v23.1.dll
+	DevExpress.ExpressApp.CloneObject.Xpo.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.CloneObject.Xpo.v23.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ConditionalAppearance.v23.1.dll
+	DevExpress.ExpressApp.Dashboards.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Dashboards.v23.1.dll
+	DevExpress.ExpressApp.Dashboards.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Dashboards.Win.v23.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.FileAttachment.Win.v23.1.dll
+	DevExpress.ExpressApp.Kpi.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Kpi.v23.1.dll
+	DevExpress.ExpressApp.Notifications.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Notifications.v23.1.dll
+	DevExpress.ExpressApp.Notifications.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Notifications.Win.v23.1.dll
+	DevExpress.ExpressApp.Objects.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Objects.v23.1.dll
+	DevExpress.ExpressApp.Office.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Office.v23.1.dll
+	DevExpress.ExpressApp.Office.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Office.Win.v23.1.dll
+	DevExpress.ExpressApp.PivotChart.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.PivotChart.v23.1.dll
+	DevExpress.ExpressApp.PivotChart.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.PivotChart.Win.v23.1.dll
+	DevExpress.ExpressApp.PivotGrid.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.PivotGrid.v23.1.dll
+	DevExpress.ExpressApp.PivotGrid.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.PivotGrid.Win.v23.1.dll
+	DevExpress.ExpressApp.ReportsV2.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ReportsV2.v23.1.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ReportsV2.Win.v23.1.dll
+	DevExpress.ExpressApp.ScriptRecorder.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ScriptRecorder.v23.1.dll
+	DevExpress.ExpressApp.ScriptRecorder.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ScriptRecorder.Win.v23.1.dll
+	DevExpress.ExpressApp.Security.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Security.v23.1.dll
+	DevExpress.ExpressApp.Security.Xpo.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Security.Xpo.v23.1.dll
+	DevExpress.ExpressApp.StateMachine.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.StateMachine.v23.1.dll
+	DevExpress.ExpressApp.TreeListEditors.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.TreeListEditors.v23.1.dll
+	DevExpress.ExpressApp.TreeListEditors.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.TreeListEditors.Win.v23.1.dll
+	DevExpress.ExpressApp.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.v23.1.dll
+	DevExpress.ExpressApp.Validation.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Validation.v23.1.dll
+	DevExpress.ExpressApp.Validation.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Validation.Win.v23.1.dll
+	DevExpress.ExpressApp.ViewVariantsModule.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ViewVariantsModule.v23.1.dll
+	DevExpress.ExpressApp.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Win.v23.1.dll
+	DevExpress.ExpressApp.Xpo.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Xpo.v23.1.dll
+	DevExpress.Persistent.Base.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Persistent.Base.v23.1.dll
+	DevExpress.Persistent.BaseImpl.Xpo.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Persistent.BaseImpl.Xpo.v23.1.dll
+	DevExpress.PivotGrid.v23.1.Core, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.PivotGrid.v23.1.Core.dll
+	DevExpress.Printing.v23.1.Core, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Printing.v23.1.Core.dll
+	DevExpress.RichEdit.v23.1.Core, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.RichEdit.v23.1.Core.dll
+	DevExpress.Spreadsheet.v23.1.Core, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Spreadsheet.v23.1.Core.dll
+	DevExpress.Utils.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Utils.v23.1.dll
+	DevExpress.Xpo.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Xpo.v23.1.dll
+	DevExpress.XtraBars.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraBars.v23.1.dll
+	DevExpress.XtraEditors.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraEditors.v23.1.dll
+	DevExpress.XtraReports.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraReports.v23.1.dll
+	DevExpress.XtraReports.v23.1.Extensions, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraReports.v23.1.Extensions.dll
+	DevExpress.XtraRichEdit.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraRichEdit.v23.1.dll
+	DevExpress.XtraSpreadsheet.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraSpreadsheet.v23.1.dll
+	DevExpress.XtraTreeList.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraTreeList.v23.1.dll
+	Microsoft.Extensions.Configuration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+	Microsoft.Extensions.Configuration.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+	Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+	Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+	Microsoft.Extensions.DotNetDeltaApplier, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\hotreload\Microsoft.Extensions.DotNetDeltaApplier.dll
+	Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+	Microsoft.Extensions.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+	Microsoft.Win32.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\Microsoft.Win32.Registry.dll
+	Microsoft.Win32.SystemEvents, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\Microsoft.Win32.SystemEvents.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\netstandard.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.dll
+	System.Collections, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Collections.dll
+	System.Collections.Concurrent, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Collections.Concurrent.dll
+	System.Collections.Immutable, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Collections.Immutable.dll
+	System.Collections.NonGeneric, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Collections.Specialized.dll
+	System.ComponentModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.ComponentModel.dll
+	System.ComponentModel.EventBasedAsync, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Configuration.ConfigurationManager.dll
+	System.Console, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Console.dll
+	System.Data.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Data.Common.dll
+	System.Diagnostics.FileVersionInfo, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.Process, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.TraceSource.dll
+	System.Diagnostics.Tracing, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.Tracing.dll
+	System.Drawing, Version=6.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Drawing.dll
+	System.Drawing.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Drawing.Primitives.dll
+	System.IO.Compression, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.IO.Compression.dll
+	System.IO.Pipes, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.IO.Pipes.dll
+	System.Linq, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Linq.dll
+	System.Linq.Expressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Linq.Expressions.dll
+	System.Memory, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Memory.dll
+	System.Net.WebClient, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Net.WebClient.dll
+	System.Numerics.Vectors, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Numerics.Vectors.dll
+	System.ObjectModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.ObjectModel.dll
+	System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Private.CoreLib.dll
+	System.Private.Uri, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Private.Uri.dll
+	System.Private.Xml, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Private.Xml.dll
+	System.Reflection.Emit, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Metadata, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Reflection.Metadata.dll
+	System.Reflection.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Reflection.Primitives.dll
+	System.Resources.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Resources.Extensions.dll
+	System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.dll
+	System.Runtime.InteropServices, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Loader, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.Loader.dll
+	System.Runtime.Serialization.Formatters, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.Serialization.Formatters.dll
+	System.Security.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Security.AccessControl.dll
+	System.Security.Claims, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Security.Claims.dll
+	System.Security.Cryptography.Algorithms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Security.Cryptography.Algorithms.dll
+	System.Security.Cryptography.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Security.Cryptography.Primitives.dll
+	System.Security.Principal.Windows, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Security.Principal.Windows.dll
+	System.Text.Encoding.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Text.Encoding.Extensions.dll
+	System.Text.RegularExpressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Text.RegularExpressions.dll
+	System.Threading, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Threading.dll
+	System.Threading.Overlapped, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Threading.Overlapped.dll
+	System.Threading.Thread, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Threading.ThreadPool.dll
+	System.Windows.Forms, Version=6.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Windows.Forms.dll
+	System.Windows.Forms.Design, Version=6.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Windows.Forms.Design.dll
+	System.Windows.Forms.Primitives, Version=6.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Windows.Forms.Primitives.dll
+	System.Xml.ReaderWriter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Xml.ReaderWriter.dll
+	System.Xml.XmlSerializer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Xml.XmlSerializer.dll
+	TestXAFAPP.Module, Version=1.0.8736.21926, Culture=neutral, PublicKeyToken=null, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\TestXAFAPP.Module.dll
+	TestXAFAPP.Win, Version=1.0.8736.21995, Culture=neutral, PublicKeyToken=null, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\TestXAFAPP.Win.dll
+02.12.23 12:13:31.479	SetupModules
+02.12.23 12:13:32.095	Customize TypesInfo
+02.12.23 12:13:39.608		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+02.12.23 12:13:39.614		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+02.12.23 12:13:39.995	Logon With Parameters
+02.12.23 12:13:40.003		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: a1e1f730-d35d-4adf-afdf-d763d8eae58b
+								Category: Unspecified
+
+02.12.23 12:13:40.293	Generate default Model for Action containers
+02.12.23 12:13:44.996	'UserName' property editor: new value is 'Dmin'
+02.12.23 12:13:45.054	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:13:45.057		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Log In
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+02.12.23 12:13:45.069	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:13:45.073		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: a1e1f730-d35d-4adf-afdf-d763d8eae58b
+								Category: Unspecified
+
+02.12.23 12:13:45.178	--------------------------------------------------------------------------------
+							Start logon process
+
+02.12.23 12:13:45.185	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+02.12.23 12:13:45.188		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=TestXAFAPP;XpoDataStorePool=True;
+02.12.23 12:13:45.192		ConnectionString: 
+02.12.23 12:13:45.630	Resolve the 'Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null' assembly
+02.12.23 12:13:46.703	--------------------------------------------------------------------------------
+							UpdateDB
+
+02.12.23 12:13:46.781		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=TestXAFAPP;XpoDataStorePool=True;
+02.12.23 12:13:47.529	--------------------------------------------------------------------------------
+							Logon failed
+
+02.12.23 12:13:47.531	Login failed for 'Dmin'. User name or password is incorrect.
+TestXAFAPP.Win Error: 0 : 02.12.23 12:13:47.560	================================================================================
+The error occurred:
+
+	Type:       AuthenticationException
+	Message:    Login failed for 'Dmin'. User name or password is incorrect.
+	Data:       0 entries
+	Stack trace:
+
+   at DevExpress.ExpressApp.Security.AuthenticationMixedV2.Authenticate(IObjectSpace objectSpace)
+   at DevExpress.ExpressApp.Security.SecurityStrategyBase.Logon(IObjectSpace objectSpace)
+   at DevExpress.ExpressApp.XafApplication.Logon(PopupWindowShowActionExecuteEventArgs logonWindowArgs)
+   at DevExpress.ExpressApp.Win.WinApplication.Logon(PopupWindowShowActionExecuteEventArgs logonWindowArgs)
+	InnerException is null
+
+--------------------------------------------------------------------------------
+Loaded assemblies
+	2je1lcrh, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\alexe\AppData\Local\Temp\2je1lcrh.voz
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\Accessibility.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.BonusSkins.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.BonusSkins.v23.1.dll
+	DevExpress.Data.Desktop.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Data.Desktop.v23.1.dll
+	DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Data.v23.1.dll
+	DevExpress.Drawing.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Drawing.v23.1.dll
+	DevExpress.ExpressApp.Chart.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Chart.v23.1.dll
+	DevExpress.ExpressApp.Chart.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Chart.Win.v23.1.dll
+	DevExpress.ExpressApp.CloneObject.Xpo.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.CloneObject.Xpo.v23.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ConditionalAppearance.v23.1.dll
+	DevExpress.ExpressApp.Dashboards.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Dashboards.v23.1.dll
+	DevExpress.ExpressApp.Dashboards.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Dashboards.Win.v23.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.FileAttachment.Win.v23.1.dll
+	DevExpress.ExpressApp.Kpi.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Kpi.v23.1.dll
+	DevExpress.ExpressApp.Notifications.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Notifications.v23.1.dll
+	DevExpress.ExpressApp.Notifications.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Notifications.Win.v23.1.dll
+	DevExpress.ExpressApp.Objects.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Objects.v23.1.dll
+	DevExpress.ExpressApp.Office.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Office.v23.1.dll
+	DevExpress.ExpressApp.Office.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Office.Win.v23.1.dll
+	DevExpress.ExpressApp.PivotChart.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.PivotChart.v23.1.dll
+	DevExpress.ExpressApp.PivotChart.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.PivotChart.Win.v23.1.dll
+	DevExpress.ExpressApp.PivotGrid.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.PivotGrid.v23.1.dll
+	DevExpress.ExpressApp.PivotGrid.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.PivotGrid.Win.v23.1.dll
+	DevExpress.ExpressApp.ReportsV2.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ReportsV2.v23.1.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ReportsV2.Win.v23.1.dll
+	DevExpress.ExpressApp.ScriptRecorder.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ScriptRecorder.v23.1.dll
+	DevExpress.ExpressApp.ScriptRecorder.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ScriptRecorder.Win.v23.1.dll
+	DevExpress.ExpressApp.Security.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Security.v23.1.dll
+	DevExpress.ExpressApp.Security.Xpo.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Security.Xpo.v23.1.dll
+	DevExpress.ExpressApp.StateMachine.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.StateMachine.v23.1.dll
+	DevExpress.ExpressApp.TreeListEditors.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.TreeListEditors.v23.1.dll
+	DevExpress.ExpressApp.TreeListEditors.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.TreeListEditors.Win.v23.1.dll
+	DevExpress.ExpressApp.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.v23.1.dll
+	DevExpress.ExpressApp.Validation.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Validation.v23.1.dll
+	DevExpress.ExpressApp.Validation.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Validation.Win.v23.1.dll
+	DevExpress.ExpressApp.ViewVariantsModule.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ViewVariantsModule.v23.1.dll
+	DevExpress.ExpressApp.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Win.v23.1.dll
+	DevExpress.ExpressApp.Xpo.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Xpo.v23.1.dll
+	DevExpress.Images.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Images.v23.1.dll
+	DevExpress.Office.v23.1.Core, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Office.v23.1.Core.dll
+	DevExpress.Persistent.Base.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Persistent.Base.v23.1.dll
+	DevExpress.Persistent.BaseImpl.Xpo.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Persistent.BaseImpl.Xpo.v23.1.dll
+	DevExpress.PivotGrid.v23.1.Core, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.PivotGrid.v23.1.Core.dll
+	DevExpress.Printing.v23.1.Core, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Printing.v23.1.Core.dll
+	DevExpress.RichEdit.v23.1.Core, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.RichEdit.v23.1.Core.dll
+	DevExpress.Spreadsheet.v23.1.Core, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Spreadsheet.v23.1.Core.dll
+	DevExpress.Utils.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Utils.v23.1.dll
+	DevExpress.Xpo.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Xpo.v23.1.dll
+	DevExpress.XtraBars.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraBars.v23.1.dll
+	DevExpress.XtraEditors.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraEditors.v23.1.dll
+	DevExpress.XtraLayout.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraLayout.v23.1.dll
+	DevExpress.XtraNavBar.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraNavBar.v23.1.dll
+	DevExpress.XtraReports.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraReports.v23.1.dll
+	DevExpress.XtraReports.v23.1.Extensions, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraReports.v23.1.Extensions.dll
+	DevExpress.XtraRichEdit.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraRichEdit.v23.1.dll
+	DevExpress.XtraSpreadsheet.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraSpreadsheet.v23.1.dll
+	DevExpress.XtraTreeList.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraTreeList.v23.1.dll
+	Microsoft.CodeAnalysis, Version=3.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.dll
+	Microsoft.CodeAnalysis.CSharp, Version=3.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+	Microsoft.Extensions.Configuration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+	Microsoft.Extensions.Configuration.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+	Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+	Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+	Microsoft.Extensions.DotNetDeltaApplier, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\hotreload\Microsoft.Extensions.DotNetDeltaApplier.dll
+	Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+	Microsoft.Extensions.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+	Microsoft.Win32.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\Microsoft.Win32.Registry.dll
+	Microsoft.Win32.SystemEvents, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\Microsoft.Win32.SystemEvents.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\mscorlib.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\netstandard.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.dll
+	System.Buffers, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Buffers.dll
+	System.Collections, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Collections.dll
+	System.Collections.Concurrent, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Collections.Concurrent.dll
+	System.Collections.Immutable, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Collections.Immutable.dll
+	System.Collections.NonGeneric, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Collections.Specialized.dll
+	System.ComponentModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.ComponentModel.dll
+	System.ComponentModel.Annotations, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.ComponentModel.Annotations.dll
+	System.ComponentModel.EventBasedAsync, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Configuration.ConfigurationManager.dll
+	System.Console, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Console.dll
+	System.Data.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Data.Common.dll
+	System.Data.SqlClient, Version=4.6.1.5, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+	System.Diagnostics.DiagnosticSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.DiagnosticSource.dll
+	System.Diagnostics.FileVersionInfo, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.Process, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.TraceSource.dll
+	System.Diagnostics.Tracing, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.Tracing.dll
+	System.Drawing, Version=6.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Drawing.dll
+	System.Drawing.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Drawing.Primitives.dll
+	System.Globalization, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Globalization.dll
+	System.IO.Compression, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.IO.Compression.dll
+	System.IO.Pipes, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.IO.Pipes.dll
+	System.Linq, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Linq.dll
+	System.Linq.Expressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Linq.Expressions.dll
+	System.Linq.Parallel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Linq.Parallel.dll
+	System.Linq.Queryable, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Linq.Queryable.dll
+	System.Memory, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Memory.dll
+	System.Net.WebClient, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Net.WebClient.dll
+	System.Numerics.Vectors, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Numerics.Vectors.dll
+	System.ObjectModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.ObjectModel.dll
+	System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Private.CoreLib.dll
+	System.Private.ServiceModel, Version=4.10.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\System.Private.ServiceModel.dll
+	System.Private.Uri, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Private.Uri.dll
+	System.Private.Xml, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Private.Xml.dll
+	System.Private.Xml.Linq, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Private.Xml.Linq.dll
+	System.Reflection.Emit, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Metadata, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Reflection.Metadata.dll
+	System.Reflection.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Reflection.Primitives.dll
+	System.Resources.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Resources.Extensions.dll
+	System.Resources.ResourceManager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Resources.ResourceManager.dll
+	System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.dll
+	System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.CompilerServices.Unsafe.dll
+	System.Runtime.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.Extensions.dll
+	System.Runtime.InteropServices, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Loader, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.Loader.dll
+	System.Runtime.Serialization.Formatters, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.Serialization.Formatters.dll
+	System.Runtime.Serialization.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.Serialization.Primitives.dll
+	System.Security.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Security.AccessControl.dll
+	System.Security.Claims, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Security.Claims.dll
+	System.Security.Cryptography.Algorithms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Security.Cryptography.Algorithms.dll
+	System.Security.Cryptography.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Security.Cryptography.Primitives.dll
+	System.Security.Principal.Windows, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Security.Principal.Windows.dll
+	System.ServiceModel.NetTcp, Version=4.6.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\System.ServiceModel.NetTcp.dll
+	System.ServiceModel.Primitives, Version=4.10.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\System.ServiceModel.Primitives.dll
+	System.Text.Encoding.CodePages, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Text.Encoding.CodePages.dll
+	System.Text.Encoding.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Text.Encoding.Extensions.dll
+	System.Text.RegularExpressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Text.RegularExpressions.dll
+	System.Threading, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Threading.dll
+	System.Threading.Overlapped, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Threading.Overlapped.dll
+	System.Threading.Tasks, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Threading.Tasks.dll
+	System.Threading.Tasks.Parallel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Threading.Tasks.Parallel.dll
+	System.Threading.Thread, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Threading.ThreadPool.dll
+	System.Threading.Timer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Threading.Timer.dll
+	System.Transactions.Local, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Transactions.Local.dll
+	System.Windows.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Windows.Extensions.dll
+	System.Windows.Forms, Version=6.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Windows.Forms.dll
+	System.Windows.Forms.Design, Version=6.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Windows.Forms.Design.dll
+	System.Windows.Forms.Primitives, Version=6.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Windows.Forms.Primitives.dll
+	System.Xml.ReaderWriter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Xml.ReaderWriter.dll
+	System.Xml.XDocument, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Xml.XDocument.dll
+	System.Xml.XmlSerializer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Xml.XmlSerializer.dll
+	TestXAFAPP.Module, Version=1.0.8736.21926, Culture=neutral, PublicKeyToken=null, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\TestXAFAPP.Module.dll
+	TestXAFAPP.Win, Version=1.0.8736.21995, Culture=neutral, PublicKeyToken=null, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\TestXAFAPP.Win.dll
+================================================================================
+
+02.12.23 12:13:48.601	Action 'a1e1f730-d35d-4adf-afdf-d763d8eae58b' done
+02.12.23 12:13:48.607	Action 'Logon' done
+02.12.23 12:13:52.514	'UserName' property editor: new value is 'Admin'
+02.12.23 12:13:52.518	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:13:52.520		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Log In
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+02.12.23 12:13:52.522	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:13:52.524		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: a1e1f730-d35d-4adf-afdf-d763d8eae58b
+								Category: Unspecified
+
+02.12.23 12:13:52.544	--------------------------------------------------------------------------------
+							Start logon process
+
+02.12.23 12:13:52.580	--------------------------------------------------------------------------------
+							Logon successful
+
+02.12.23 12:13:52.749	--------------------------------------------------------------------------------
+							Logon completed
+
+02.12.23 12:13:53.301		startUpActions: 1
+02.12.23 12:13:53.386	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+02.12.23 12:13:54.570	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:13:54.573		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+02.12.23 12:13:54.577		SelectedItem: Users
+02.12.23 12:13:57.010	Action 'ShowNavigationItem' done
+02.12.23 12:13:58.417	Action 'a1e1f730-d35d-4adf-afdf-d763d8eae58b' done
+02.12.23 12:13:58.425	Window closing: Log In
+02.12.23 12:13:58.656	Action 'Logon' done
+02.12.23 12:13:58.666	Window closed: Log In
+02.12.23 12:13:58.861	Application startup done
+=========================
+02.12.23 12:13:58.868	Application running
+====================
+02.12.23 12:14:06.968	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:14:06.971		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+02.12.23 12:14:06.974		SelectedItem: State Machine
+02.12.23 12:14:07.197	Action 'ShowNavigationItem' done
+02.12.23 12:14:08.735	Window closing: Users
+02.12.23 12:14:08.763	Window closing: State Machine
+02.12.23 12:14:08.766	Window closing: State Machine - TestXAFAPP
+02.12.23 12:14:09.120	Window closed: Users
+02.12.23 12:14:09.131	Window closed: State Machine
+02.12.23 12:14:09.136	Window closed: State Machine - TestXAFAPP
+02.12.23 12:14:09.690	Save model changes
+===================
+02.12.23 12:14:09.979	Save model changes
+===================
+02.12.23 12:14:10.019	--------------------------------------------------------------------------------
+							Logoff completed
+
+02.12.23 12:14:10.031	Application stopping
+=====================
+02.12.23 12:25:53.282	================================================================================
+02.12.23 12:25:53.293	Trace Log for TestXAFAPP.Win is started
+02.12.23 12:25:53.296	================================================================================
+02.12.23 12:25:53.307	System Environment
+	OS Version: Microsoft Windows NT 10.0.22621.0
+	CLR Version: 6.0.21
+	eXpressApp Version: 23.1.6.0
+	eXpressApp File Version: 23.1.6.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	eXpressAppFrameworkTraceLevel=3
+
+02.12.23 12:25:54.101	Initialize application
+=======================
+02.12.23 12:25:54.107		Command line arguments: 
+		D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\TestXAFAPP.Win.dll
+02.12.23 12:25:54.351	The ValueManagerType is initialized by the default value: SimpleValueManager.
+02.12.23 12:25:54.408	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   at DevExpress.ExpressApp.ReportsV2.Win.ReportsWindowsFormsModuleV2.Setup(XafApplication application)
+   at DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   at System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinModuleBuilder.<>c__DisplayClass4_0`1.<Add>b__0(XafApplication application)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinApplicationBuilder.Build()
+   at TestXAFAPP.Win.ApplicationBuilder.BuildApplication(String connectionString) in D:\project\TestXAFAPP\TestXAFAPP.Win\Startup.cs:line 87
+   at TestXAFAPP.Win.Program.Main(String[] args) in D:\project\TestXAFAPP\TestXAFAPP.Win\Program.cs:line 62
+
+02.12.23 12:25:55.860	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+02.12.23 12:25:55.865	--------------------------------------------------------------------------------
+							
+
+02.12.23 12:25:55.887	--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\Accessibility.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.BonusSkins.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.BonusSkins.v23.1.dll
+	DevExpress.Data.Desktop.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Data.Desktop.v23.1.dll
+	DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Data.v23.1.dll
+	DevExpress.Drawing.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Drawing.v23.1.dll
+	DevExpress.ExpressApp.Chart.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Chart.v23.1.dll
+	DevExpress.ExpressApp.Chart.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Chart.Win.v23.1.dll
+	DevExpress.ExpressApp.CloneObject.Xpo.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.CloneObject.Xpo.v23.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ConditionalAppearance.v23.1.dll
+	DevExpress.ExpressApp.Dashboards.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Dashboards.v23.1.dll
+	DevExpress.ExpressApp.Dashboards.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Dashboards.Win.v23.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.FileAttachment.Win.v23.1.dll
+	DevExpress.ExpressApp.Kpi.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Kpi.v23.1.dll
+	DevExpress.ExpressApp.Notifications.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Notifications.v23.1.dll
+	DevExpress.ExpressApp.Notifications.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Notifications.Win.v23.1.dll
+	DevExpress.ExpressApp.Objects.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Objects.v23.1.dll
+	DevExpress.ExpressApp.Office.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Office.v23.1.dll
+	DevExpress.ExpressApp.Office.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Office.Win.v23.1.dll
+	DevExpress.ExpressApp.PivotChart.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.PivotChart.v23.1.dll
+	DevExpress.ExpressApp.PivotChart.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.PivotChart.Win.v23.1.dll
+	DevExpress.ExpressApp.PivotGrid.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.PivotGrid.v23.1.dll
+	DevExpress.ExpressApp.PivotGrid.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.PivotGrid.Win.v23.1.dll
+	DevExpress.ExpressApp.ReportsV2.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ReportsV2.v23.1.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ReportsV2.Win.v23.1.dll
+	DevExpress.ExpressApp.ScriptRecorder.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ScriptRecorder.v23.1.dll
+	DevExpress.ExpressApp.ScriptRecorder.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ScriptRecorder.Win.v23.1.dll
+	DevExpress.ExpressApp.Security.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Security.v23.1.dll
+	DevExpress.ExpressApp.Security.Xpo.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Security.Xpo.v23.1.dll
+	DevExpress.ExpressApp.StateMachine.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.StateMachine.v23.1.dll
+	DevExpress.ExpressApp.TreeListEditors.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.TreeListEditors.v23.1.dll
+	DevExpress.ExpressApp.TreeListEditors.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.TreeListEditors.Win.v23.1.dll
+	DevExpress.ExpressApp.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.v23.1.dll
+	DevExpress.ExpressApp.Validation.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Validation.v23.1.dll
+	DevExpress.ExpressApp.Validation.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Validation.Win.v23.1.dll
+	DevExpress.ExpressApp.ViewVariantsModule.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ViewVariantsModule.v23.1.dll
+	DevExpress.ExpressApp.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Win.v23.1.dll
+	DevExpress.ExpressApp.Xpo.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Xpo.v23.1.dll
+	DevExpress.Persistent.Base.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Persistent.Base.v23.1.dll
+	DevExpress.Persistent.BaseImpl.Xpo.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Persistent.BaseImpl.Xpo.v23.1.dll
+	DevExpress.PivotGrid.v23.1.Core, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.PivotGrid.v23.1.Core.dll
+	DevExpress.Printing.v23.1.Core, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Printing.v23.1.Core.dll
+	DevExpress.RichEdit.v23.1.Core, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.RichEdit.v23.1.Core.dll
+	DevExpress.Spreadsheet.v23.1.Core, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Spreadsheet.v23.1.Core.dll
+	DevExpress.Utils.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Utils.v23.1.dll
+	DevExpress.Xpo.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Xpo.v23.1.dll
+	DevExpress.XtraBars.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraBars.v23.1.dll
+	DevExpress.XtraEditors.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraEditors.v23.1.dll
+	DevExpress.XtraReports.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraReports.v23.1.dll
+	DevExpress.XtraReports.v23.1.Extensions, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraReports.v23.1.Extensions.dll
+	DevExpress.XtraRichEdit.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraRichEdit.v23.1.dll
+	DevExpress.XtraSpreadsheet.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraSpreadsheet.v23.1.dll
+	DevExpress.XtraTreeList.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraTreeList.v23.1.dll
+	Microsoft.Extensions.Configuration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+	Microsoft.Extensions.Configuration.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+	Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+	Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+	Microsoft.Extensions.DotNetDeltaApplier, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\hotreload\Microsoft.Extensions.DotNetDeltaApplier.dll
+	Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+	Microsoft.Extensions.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+	Microsoft.Win32.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\Microsoft.Win32.Registry.dll
+	Microsoft.Win32.SystemEvents, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\Microsoft.Win32.SystemEvents.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\netstandard.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.dll
+	System.Collections, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Collections.dll
+	System.Collections.Concurrent, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Collections.Concurrent.dll
+	System.Collections.Immutable, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Collections.Immutable.dll
+	System.Collections.NonGeneric, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Collections.Specialized.dll
+	System.ComponentModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.ComponentModel.dll
+	System.ComponentModel.EventBasedAsync, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Configuration.ConfigurationManager.dll
+	System.Console, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Console.dll
+	System.Data.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Data.Common.dll
+	System.Diagnostics.FileVersionInfo, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.Process, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.TraceSource.dll
+	System.Diagnostics.Tracing, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.Tracing.dll
+	System.Drawing, Version=6.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Drawing.dll
+	System.Drawing.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Drawing.Primitives.dll
+	System.IO.Compression, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.IO.Compression.dll
+	System.IO.Pipes, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.IO.Pipes.dll
+	System.Linq, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Linq.dll
+	System.Linq.Expressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Linq.Expressions.dll
+	System.Memory, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Memory.dll
+	System.Net.WebClient, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Net.WebClient.dll
+	System.Numerics.Vectors, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Numerics.Vectors.dll
+	System.ObjectModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.ObjectModel.dll
+	System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Private.CoreLib.dll
+	System.Private.Uri, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Private.Uri.dll
+	System.Private.Xml, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Private.Xml.dll
+	System.Reflection.Emit, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Metadata, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Reflection.Metadata.dll
+	System.Reflection.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Reflection.Primitives.dll
+	System.Resources.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Resources.Extensions.dll
+	System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.dll
+	System.Runtime.InteropServices, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Loader, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.Loader.dll
+	System.Runtime.Serialization.Formatters, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.Serialization.Formatters.dll
+	System.Security.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Security.AccessControl.dll
+	System.Security.Claims, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Security.Claims.dll
+	System.Security.Cryptography.Algorithms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Security.Cryptography.Algorithms.dll
+	System.Security.Cryptography.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Security.Cryptography.Primitives.dll
+	System.Security.Principal.Windows, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Security.Principal.Windows.dll
+	System.Text.Encoding.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Text.Encoding.Extensions.dll
+	System.Text.RegularExpressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Text.RegularExpressions.dll
+	System.Threading, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Threading.dll
+	System.Threading.Overlapped, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Threading.Overlapped.dll
+	System.Threading.Thread, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Threading.ThreadPool.dll
+	System.Windows.Forms, Version=6.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Windows.Forms.dll
+	System.Windows.Forms.Design, Version=6.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Windows.Forms.Design.dll
+	System.Windows.Forms.Primitives, Version=6.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Windows.Forms.Primitives.dll
+	System.Xml.ReaderWriter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Xml.ReaderWriter.dll
+	System.Xml.XmlSerializer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Xml.XmlSerializer.dll
+	TestXAFAPP.Module, Version=1.0.8736.22375, Culture=neutral, PublicKeyToken=null, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\TestXAFAPP.Module.dll
+	TestXAFAPP.Win, Version=1.0.8736.22375, Culture=neutral, PublicKeyToken=null, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\TestXAFAPP.Win.dll
+02.12.23 12:25:56.589	SetupModules
+02.12.23 12:25:56.984	Customize TypesInfo
+02.12.23 12:26:01.807		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+02.12.23 12:26:01.812		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+02.12.23 12:26:02.091	Logon With Parameters
+02.12.23 12:26:02.099		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 5dedb037-046a-43e0-a6b5-23b01bdd7436
+								Category: Unspecified
+
+02.12.23 12:26:02.326	Generate default Model for Action containers
+02.12.23 12:26:04.367	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:26:04.372		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Log In
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+02.12.23 12:26:04.394	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:26:04.397		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 5dedb037-046a-43e0-a6b5-23b01bdd7436
+								Category: Unspecified
+
+02.12.23 12:26:04.491	--------------------------------------------------------------------------------
+							Start logon process
+
+02.12.23 12:26:04.496	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+02.12.23 12:26:04.499		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=TestXAFAPP;XpoDataStorePool=True;
+02.12.23 12:26:04.502		ConnectionString: 
+02.12.23 12:26:04.551	Resolve the 'Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null' assembly
+02.12.23 12:26:06.324	--------------------------------------------------------------------------------
+							UpdateDB
+
+02.12.23 12:26:06.340		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=TestXAFAPP;XpoDataStorePool=True;
+02.12.23 12:26:07.167	--------------------------------------------------------------------------------
+							Logon successful
+
+02.12.23 12:26:07.371	--------------------------------------------------------------------------------
+							Logon completed
+
+02.12.23 12:26:07.506		startUpActions: 1
+02.12.23 12:26:07.565	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+02.12.23 12:26:11.469	Action '5dedb037-046a-43e0-a6b5-23b01bdd7436' done
+02.12.23 12:26:11.477	Window closing: Log In
+02.12.23 12:26:11.516	Action 'Logon' done
+02.12.23 12:26:11.520	Window closed: Log In
+02.12.23 12:26:11.661	Application startup done
+=========================
+02.12.23 12:26:11.664	Application running
+====================
+02.12.23 12:26:14.452	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:26:14.455		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+02.12.23 12:26:14.458		SelectedItem: Users
+02.12.23 12:26:15.115	Action 'ShowNavigationItem' done
+02.12.23 12:26:16.654	Window closing: State Machine
+02.12.23 12:26:16.733	Window closed: State Machine
+02.12.23 12:26:17.511	Window closing: Users
+02.12.23 12:26:17.524	Window closed: Users
+02.12.23 12:26:19.104	Window closing: TestXAFAPP
+02.12.23 12:26:19.211	Window closed: TestXAFAPP
+02.12.23 12:26:19.411	Save model changes
+===================
+02.12.23 12:26:19.674	Save model changes
+===================
+02.12.23 12:26:19.684	--------------------------------------------------------------------------------
+							Logoff completed
+
+02.12.23 12:26:19.698	Application stopping
+=====================
+02.12.23 12:28:38.579	================================================================================
+02.12.23 12:28:38.584	Trace Log for TestXAFAPP.Win is started
+02.12.23 12:28:38.586	================================================================================
+02.12.23 12:28:38.591	System Environment
+	OS Version: Microsoft Windows NT 10.0.22621.0
+	CLR Version: 6.0.21
+	eXpressApp Version: 23.1.6.0
+	eXpressApp File Version: 23.1.6.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	eXpressAppFrameworkTraceLevel=3
+
+02.12.23 12:28:39.571	Initialize application
+=======================
+02.12.23 12:28:39.589		Command line arguments: 
+		D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\TestXAFAPP.Win.dll
+02.12.23 12:28:39.943	The ValueManagerType is initialized by the default value: SimpleValueManager.
+02.12.23 12:28:39.996	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   at DevExpress.ExpressApp.ReportsV2.Win.ReportsWindowsFormsModuleV2.Setup(XafApplication application)
+   at DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   at System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinModuleBuilder.<>c__DisplayClass4_0`1.<Add>b__0(XafApplication application)
+   at DevExpress.ExpressApp.Win.ApplicationBuilder.WinApplicationBuilder.Build()
+   at TestXAFAPP.Win.ApplicationBuilder.BuildApplication(String connectionString) in D:\project\TestXAFAPP\TestXAFAPP.Win\Startup.cs:line 87
+   at TestXAFAPP.Win.Program.Main(String[] args) in D:\project\TestXAFAPP\TestXAFAPP.Win\Program.cs:line 62
+
+02.12.23 12:28:41.501	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+02.12.23 12:28:41.506	--------------------------------------------------------------------------------
+							
+
+02.12.23 12:28:41.526	--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\Accessibility.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.BonusSkins.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.BonusSkins.v23.1.dll
+	DevExpress.Data.Desktop.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Data.Desktop.v23.1.dll
+	DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Data.v23.1.dll
+	DevExpress.Drawing.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Drawing.v23.1.dll
+	DevExpress.ExpressApp.Chart.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Chart.v23.1.dll
+	DevExpress.ExpressApp.Chart.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Chart.Win.v23.1.dll
+	DevExpress.ExpressApp.CloneObject.Xpo.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.CloneObject.Xpo.v23.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ConditionalAppearance.v23.1.dll
+	DevExpress.ExpressApp.Dashboards.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Dashboards.v23.1.dll
+	DevExpress.ExpressApp.Dashboards.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Dashboards.Win.v23.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.FileAttachment.Win.v23.1.dll
+	DevExpress.ExpressApp.Kpi.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Kpi.v23.1.dll
+	DevExpress.ExpressApp.Notifications.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Notifications.v23.1.dll
+	DevExpress.ExpressApp.Notifications.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Notifications.Win.v23.1.dll
+	DevExpress.ExpressApp.Objects.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Objects.v23.1.dll
+	DevExpress.ExpressApp.Office.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Office.v23.1.dll
+	DevExpress.ExpressApp.Office.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Office.Win.v23.1.dll
+	DevExpress.ExpressApp.PivotChart.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.PivotChart.v23.1.dll
+	DevExpress.ExpressApp.PivotChart.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.PivotChart.Win.v23.1.dll
+	DevExpress.ExpressApp.PivotGrid.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.PivotGrid.v23.1.dll
+	DevExpress.ExpressApp.PivotGrid.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.PivotGrid.Win.v23.1.dll
+	DevExpress.ExpressApp.ReportsV2.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ReportsV2.v23.1.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ReportsV2.Win.v23.1.dll
+	DevExpress.ExpressApp.ScriptRecorder.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ScriptRecorder.v23.1.dll
+	DevExpress.ExpressApp.ScriptRecorder.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ScriptRecorder.Win.v23.1.dll
+	DevExpress.ExpressApp.Security.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Security.v23.1.dll
+	DevExpress.ExpressApp.Security.Xpo.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Security.Xpo.v23.1.dll
+	DevExpress.ExpressApp.StateMachine.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.StateMachine.v23.1.dll
+	DevExpress.ExpressApp.TreeListEditors.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.TreeListEditors.v23.1.dll
+	DevExpress.ExpressApp.TreeListEditors.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.TreeListEditors.Win.v23.1.dll
+	DevExpress.ExpressApp.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.v23.1.dll
+	DevExpress.ExpressApp.Validation.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Validation.v23.1.dll
+	DevExpress.ExpressApp.Validation.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Validation.Win.v23.1.dll
+	DevExpress.ExpressApp.ViewVariantsModule.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.ViewVariantsModule.v23.1.dll
+	DevExpress.ExpressApp.Win.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Win.v23.1.dll
+	DevExpress.ExpressApp.Xpo.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.ExpressApp.Xpo.v23.1.dll
+	DevExpress.Persistent.Base.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Persistent.Base.v23.1.dll
+	DevExpress.Persistent.BaseImpl.Xpo.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Persistent.BaseImpl.Xpo.v23.1.dll
+	DevExpress.PivotGrid.v23.1.Core, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.PivotGrid.v23.1.Core.dll
+	DevExpress.Printing.v23.1.Core, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Printing.v23.1.Core.dll
+	DevExpress.RichEdit.v23.1.Core, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.RichEdit.v23.1.Core.dll
+	DevExpress.Spreadsheet.v23.1.Core, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Spreadsheet.v23.1.Core.dll
+	DevExpress.Utils.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Utils.v23.1.dll
+	DevExpress.Xpo.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.Xpo.v23.1.dll
+	DevExpress.XtraBars.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraBars.v23.1.dll
+	DevExpress.XtraEditors.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraEditors.v23.1.dll
+	DevExpress.XtraReports.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraReports.v23.1.dll
+	DevExpress.XtraReports.v23.1.Extensions, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraReports.v23.1.Extensions.dll
+	DevExpress.XtraRichEdit.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraRichEdit.v23.1.dll
+	DevExpress.XtraSpreadsheet.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraSpreadsheet.v23.1.dll
+	DevExpress.XtraTreeList.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\DevExpress.XtraTreeList.v23.1.dll
+	Microsoft.Extensions.Configuration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+	Microsoft.Extensions.Configuration.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+	Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+	Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+	Microsoft.Extensions.DotNetDeltaApplier, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\hotreload\Microsoft.Extensions.DotNetDeltaApplier.dll
+	Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+	Microsoft.Extensions.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+	Microsoft.Win32.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\Microsoft.Win32.Registry.dll
+	Microsoft.Win32.SystemEvents, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\Microsoft.Win32.SystemEvents.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\netstandard.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.dll
+	System.Collections, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Collections.dll
+	System.Collections.Concurrent, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Collections.Concurrent.dll
+	System.Collections.Immutable, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Collections.Immutable.dll
+	System.Collections.NonGeneric, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Collections.Specialized.dll
+	System.ComponentModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.ComponentModel.dll
+	System.ComponentModel.EventBasedAsync, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Configuration.ConfigurationManager.dll
+	System.Console, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Console.dll
+	System.Data.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Data.Common.dll
+	System.Diagnostics.FileVersionInfo, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.Process, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.TraceSource.dll
+	System.Diagnostics.Tracing, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Diagnostics.Tracing.dll
+	System.Drawing, Version=6.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Drawing.dll
+	System.Drawing.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Drawing.Primitives.dll
+	System.IO.Compression, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.IO.Compression.dll
+	System.IO.Pipes, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.IO.Pipes.dll
+	System.Linq, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Linq.dll
+	System.Linq.Expressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Linq.Expressions.dll
+	System.Memory, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Memory.dll
+	System.Net.WebClient, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Net.WebClient.dll
+	System.Numerics.Vectors, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Numerics.Vectors.dll
+	System.ObjectModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.ObjectModel.dll
+	System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Private.CoreLib.dll
+	System.Private.Uri, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Private.Uri.dll
+	System.Private.Xml, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Private.Xml.dll
+	System.Reflection.Emit, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Metadata, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Reflection.Metadata.dll
+	System.Reflection.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Reflection.Primitives.dll
+	System.Resources.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Resources.Extensions.dll
+	System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.dll
+	System.Runtime.InteropServices, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Loader, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.Loader.dll
+	System.Runtime.Serialization.Formatters, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Runtime.Serialization.Formatters.dll
+	System.Security.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Security.AccessControl.dll
+	System.Security.Claims, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Security.Claims.dll
+	System.Security.Cryptography.Algorithms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Security.Cryptography.Algorithms.dll
+	System.Security.Cryptography.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Security.Cryptography.Primitives.dll
+	System.Security.Principal.Windows, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Security.Principal.Windows.dll
+	System.Text.Encoding.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Text.Encoding.Extensions.dll
+	System.Text.RegularExpressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Text.RegularExpressions.dll
+	System.Threading, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Threading.dll
+	System.Threading.Overlapped, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Threading.Overlapped.dll
+	System.Threading.Thread, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Threading.ThreadPool.dll
+	System.Windows.Forms, Version=6.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Windows.Forms.dll
+	System.Windows.Forms.Design, Version=6.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Windows.Forms.Design.dll
+	System.Windows.Forms.Primitives, Version=6.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.21\System.Windows.Forms.Primitives.dll
+	System.Xml.ReaderWriter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Xml.ReaderWriter.dll
+	System.Xml.XmlSerializer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.21\System.Xml.XmlSerializer.dll
+	TestXAFAPP.Module, Version=1.0.8736.22457, Culture=neutral, PublicKeyToken=null, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\TestXAFAPP.Module.dll
+	TestXAFAPP.Win, Version=1.0.8736.22458, Culture=neutral, PublicKeyToken=null, Location=D:\project\TestXAFAPP\TestXAFAPP.Win\bin\Debug\net6.0-windows\TestXAFAPP.Win.dll
+02.12.23 12:28:42.104	SetupModules
+02.12.23 12:28:42.517	Customize TypesInfo
+02.12.23 12:28:47.167		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+02.12.23 12:28:47.173		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+02.12.23 12:28:47.451	Logon With Parameters
+02.12.23 12:28:47.458		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 514a0c48-afe2-4a82-bf74-840b047df63d
+								Category: Unspecified
+
+02.12.23 12:28:47.684	Generate default Model for Action containers
+02.12.23 12:28:50.171	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:28:50.174		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Log In
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+02.12.23 12:28:50.198	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:28:50.200		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 514a0c48-afe2-4a82-bf74-840b047df63d
+								Category: Unspecified
+
+02.12.23 12:28:50.294	--------------------------------------------------------------------------------
+							Start logon process
+
+02.12.23 12:28:50.301	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+02.12.23 12:28:50.304		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=TestXAFAPP;XpoDataStorePool=True;
+02.12.23 12:28:50.307		ConnectionString: 
+02.12.23 12:28:50.398	Resolve the 'Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null' assembly
+02.12.23 12:28:51.099	--------------------------------------------------------------------------------
+							UpdateDB
+
+02.12.23 12:28:51.171		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=TestXAFAPP;XpoDataStorePool=True;
+02.12.23 12:28:51.710	--------------------------------------------------------------------------------
+							Logon successful
+
+02.12.23 12:28:51.892	--------------------------------------------------------------------------------
+							Logon completed
+
+02.12.23 12:28:52.038		startUpActions: 1
+02.12.23 12:28:52.107	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+02.12.23 12:28:53.534	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:28:53.538		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+02.12.23 12:28:53.542		SelectedItem: Users
+02.12.23 12:28:55.270	Action 'ShowNavigationItem' done
+02.12.23 12:28:56.042	Action '514a0c48-afe2-4a82-bf74-840b047df63d' done
+02.12.23 12:28:56.048	Window closing: Log In
+02.12.23 12:28:56.086	Action 'Logon' done
+02.12.23 12:28:56.090	Window closed: Log In
+02.12.23 12:28:56.204	Application startup done
+=========================
+02.12.23 12:28:56.206	Application running
+====================
+02.12.23 12:29:02.377	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:29:02.381		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+02.12.23 12:29:02.383		SelectedItem: Client
+02.12.23 12:29:02.509	Action 'ShowNavigationItem' done
+02.12.23 12:29:02.648	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:29:02.650		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+02.12.23 12:29:02.652		SelectedItem: Client
+02.12.23 12:29:02.672	Action 'ShowNavigationItem' done
+02.12.23 12:29:04.488	Window closing: Users
+02.12.23 12:29:04.554	Window closed: Users
+02.12.23 12:29:05.769	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:29:05.774		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+02.12.23 12:29:05.777		SelectedItem: Order
+02.12.23 12:29:05.932	Action 'ShowNavigationItem' done
+02.12.23 12:29:05.970	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:29:05.973		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+02.12.23 12:29:05.977		SelectedItem: Order
+02.12.23 12:29:05.984	Action 'ShowNavigationItem' done
+02.12.23 12:29:07.608	Window closing: Order
+02.12.23 12:29:07.626	Window closed: Order
+02.12.23 12:29:10.420	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:29:10.423		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Client
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+02.12.23 12:29:10.426		SelectedItem: Client
+02.12.23 12:29:10.913	Action 'New' done
+02.12.23 12:29:16.593	'Name' property editor: new value is 'Степа'
+02.12.23 12:29:21.676	'SecondName' property editor: new value is 'Филиппов'
+02.12.23 12:29:31.809	'Ptronomy' property editor: new value is 'Игоревич'
+02.12.23 12:29:38.871	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:29:38.873		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Save
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Client
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: TestXAFAPP.Module.BusinessObjects.TestXAFAPP.Client(bc4a5690-78b6-4892-80bf-17c5790cd03e)
+
+02.12.23 12:29:39.081	Action 'Save' done
+02.12.23 12:29:42.558	Window closing: Степа - Client
+02.12.23 12:29:42.576	Window closed: Степа - Client
+02.12.23 12:30:22.977	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:30:22.979		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Client
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: TestXAFAPP.Module.BusinessObjects.TestXAFAPP.Client(bc4a5690-78b6-4892-80bf-17c5790cd03e)
+
+02.12.23 12:30:23.175	Action 'ListViewShowObject' done
+02.12.23 12:30:25.623	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:30:25.626		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Orders
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+02.12.23 12:30:25.628		SelectedItem: Order
+02.12.23 12:30:25.996	Action 'New' done
+02.12.23 12:30:37.066	'Number' property editor: new value is '1'
+02.12.23 12:30:41.786	'Cost' property editor: new value is '2'
+02.12.23 12:30:41.793	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:30:41.796		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Save
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: TestXAFAPP.Module.BusinessObjects.TestXAFAPP.Order(93760983-977b-4f66-b76a-6a11fbf96044)
+
+02.12.23 12:30:41.865	Action 'Save' done
+02.12.23 12:30:43.248	Window closing: Order
+02.12.23 12:30:43.255	Window closed: Order
+02.12.23 12:30:45.674	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:30:45.677		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Save
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Client
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: TestXAFAPP.Module.BusinessObjects.TestXAFAPP.Client(bc4a5690-78b6-4892-80bf-17c5790cd03e)
+
+02.12.23 12:30:45.768	Action 'Save' done
+02.12.23 12:30:46.762	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:30:46.764		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Client
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: TestXAFAPP.Module.BusinessObjects.TestXAFAPP.Client(bc4a5690-78b6-4892-80bf-17c5790cd03e)
+
+02.12.23 12:30:46.829	Action 'Refresh' done
+02.12.23 12:30:48.342	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:30:48.344		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+02.12.23 12:30:48.346		SelectedItem: Order
+02.12.23 12:30:48.447	Action 'ShowNavigationItem' done
+02.12.23 12:30:50.470	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:30:50.474		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: TestXAFAPP.Module.BusinessObjects.TestXAFAPP.Order(93760983-977b-4f66-b76a-6a11fbf96044)
+
+02.12.23 12:30:50.621	Action 'ListViewShowObject' done
+02.12.23 12:30:56.247	--------------------------------------------------------------------------------
+							Execute action
+
+02.12.23 12:30:56.250		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Client
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: TestXAFAPP.Module.BusinessObjects.TestXAFAPP.Client(bc4a5690-78b6-4892-80bf-17c5790cd03e)
+
+02.12.23 12:30:56.306	Action 'ListViewShowObject' done
+02.12.23 12:31:22.368	Window closing: Client
+02.12.23 12:31:22.372	Window closing: Степа - Client
+02.12.23 12:31:22.375	Window closing: Order
+02.12.23 12:31:22.378	Window closing: Order
+02.12.23 12:31:22.381	Window closing: Order - TestXAFAPP
+02.12.23 12:31:22.519	Window closed: Client
+02.12.23 12:31:22.521	Window closed: Степа - Client
+02.12.23 12:31:22.523	Window closed: Order
+02.12.23 12:31:22.525	Window closed: Order
+02.12.23 12:31:22.528	Window closed: Order - TestXAFAPP
+02.12.23 12:31:22.904	Save model changes
+===================
+02.12.23 12:31:22.977	Save model changes
+===================
+02.12.23 12:31:22.994	--------------------------------------------------------------------------------
+							Logoff completed
+
+02.12.23 12:31:23.012	Application stopping
+=====================
